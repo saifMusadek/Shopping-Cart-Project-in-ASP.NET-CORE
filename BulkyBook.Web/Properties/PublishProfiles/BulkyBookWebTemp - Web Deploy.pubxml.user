@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAphai9FUy2kuSIfDU0ducnAAAAAACAAAAAAAQZgAAAAEAACAAAADZDhAAkatNckXGVSc54k5EtdGcCbkYH+GyU30yrCihYAAAAAAOgAAAAAIAACAAAAC5HJFBxZP/h71Cp0LwLHP/ta4gwxHwE5xOs/Mx5dV8+4AAAADELIsygwZn8dFWXqYPjODBgURMWCTpvlbyhJCbQ3dinayV13QLKrw6L45eJ0RUfi1Q3Fi6mwYNx0PqwWQFG9OWCwPa7/UBoQcXQlAA6RWqNxkV0ahmdTsn0r4np9rbPVhTjDy0nsXRqVW0vxg8NP2z6WvJLaT2f0Gg6KqDQ9vfnUAAAABjmiP+Yzy2p53A+iyj6HaYMTMYbCeSfmtMBIuTdqJ5nVeRlBMK540tBaflxPOf/GRUvaUTprcmZ07AmzfIvt+i</EncryptedPassword>
+    <History>False|2023-09-13T04:33:05.7109653Z;False|2023-09-13T10:23:34.0480863+06:00;False|2023-09-13T10:22:18.7710396+06:00;False|2023-09-13T10:09:54.7012652+06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=%28localdb%29\saif_local%3bDatabase=Bulky%3bTrusted_Connection=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BulkyBook.Web.Data.ApplicationDbContext">
+      <Value>Server=tcp:dotnetmasteryserver3.database.windows.net,1433%3bInitial Catalog=dotnetmastery_db%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=SAif%402000%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
